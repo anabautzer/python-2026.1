@@ -10,7 +10,7 @@ c = int(input("Lado C: "))
 if (a + b > c) and (a + c > b) and (b + c > a):
     if a == b == c:
        print(f"Os lados {a}, {b} e {c} formam um triângulo equilátero.")
-    elif (a == b) or (a == c):
+    elif (a == b) or (a == c) or (b == c):
         print(f"Os lados {a}, {b} e {c} formam um triângulo isosceles.")
     elif a != b != c:
         print(f"Os lados {a}, {b} e {c} formam um triângulo escaleno.")
